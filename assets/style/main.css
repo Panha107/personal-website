@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.fs-1 {
+  font-size: clamp(1.8rem, 2.55svw, 2.8rem);
+}
+
+.fs-2 {
+  font-size: clamp(1.6rem, 1.43vw, 2.5px);
+}
+
+.fs_p {
+  font-size: clamp(1rem, 3.5vw, 1.15rem);
+}
+.fs_s {
+  font-size: clamp(15px, 2vw, 20px);
+}
+.fs-sm {
+  font-size: clamp(12px, 2vw, 14px);
+}
+.transition {
+  @apply transition-all duration-200 ease-in-out;
+}
+/* text-[16px] md:text-[18px] lg:text-[20px] xl:text-[22px] */
+.btn-bg {
+  @apply bg-[#E34D73] py-2 px-5 rounded-md hover:bg-[#ee688a] transition;
+}
