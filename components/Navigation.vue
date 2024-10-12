@@ -2,10 +2,8 @@
   <div class="w-full flex items-center justify-center font-roboto">
     <div class="w-[90%] h-[10vh] flex items-center justify-between">
       <h1 class="fs-1 font-semibold whitespace-nowrap">Pech Panha</h1>
-
-      <!-- Desktop Menu -->
       <div class="hidden md:block">
-        <ul class="flex lg:gap-8 cursor-pointer md:gap-5">
+        <ul class="flex lg:gap-8 md:gap-5 cursor-pointer">
           <li v-for="(list, index) in navList" :key="index">
             <NuxtLink :to="list.navLink" class="fs_p hover:text-orange-400">
               {{ list.navName }}
@@ -13,9 +11,7 @@
           </li>
         </ul>
       </div>
-
-      <!-- Mobile Menu Icon -->
-      <div
+      <button
         class="md:hidden flex items-center cursor-pointer"
         @click="toggleMenu"
       >
@@ -30,18 +26,17 @@
             d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
           />
         </svg>
-      </div>
+      </button>
     </div>
 
-    <!-- Mobile Dropdown Menu -->
-    <transition name="fade">
+    <transition name="dropdown">
       <div
         v-if="isMenuOpen"
-        class="w-full md:hidden bg-white shadow-lg p-3 mt-2"
+        class="w-full md:hidden bg-white absolute overflow-hidden top-[7vh] z-10 transition opacity-90 p-3 mt-2"
       >
-        <ul class="flex flex-col gap-3">
+        <ul class="w-full  flex flex-col gap-3">
           <li v-for="(list, index) in navList" :key="index">
-            <NuxtLink :to="list.navLink" class="fs_p hover:text-orange-400">
+            <NuxtLink :to="list.navLink" class="fs_p hover:text-orange-400 ">
               {{ list.navName }}
             </NuxtLink>
           </li>
@@ -81,10 +76,8 @@ const navList = [
   },
 ];
 
-// State to manage dropdown visibility
 const isMenuOpen = ref(false);
 
-// Function to toggle the menu
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
 };
@@ -95,12 +88,12 @@ const toggleMenu = () => {
   color: #ff9900;
 }
 
-.fade-enter-active,
-.fade-leave-active {
+.dropdown-enter-active,
+.dropdown-leave-active {
   transition: opacity 0.3s ease;
 }
-.fade-enter,
-.fade-leave-to {
+.dropdown-enter,
+.dropdown-leave-to {
   opacity: 0;
 }
 </style>
