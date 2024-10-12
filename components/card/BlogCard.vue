@@ -5,7 +5,7 @@
     <img
       :src="img"
       alt=""
-      class="w-full h-64 lg:h-[400px] object-cover mx-auto"
+      class="w-full h-60 md:h-[280px] lg:h-[290px] xl:h-[320px] 2xl:h-[400px] object-cover mx-auto"
     />
     <div class="p-3 flex flex-col gap-[5px]">
       <p class="fs_s">{{ text }}</p>

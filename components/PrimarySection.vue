@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-[90%] flex flex-col lg:flex-row justify-center items-center font-roboto mx-auto"
+    class="w-[90%] h-fit lg:h-[90vh] flex flex-col-reverse lg:flex-row justify-center items-center font-roboto"
   >
     <div class="w-full flex flex-col items-start gap-3 justify-center">
       <h2 class="fs-2 font-bold">Hello! I’m Nelson, a photographer</h2>
@@ -11,7 +11,7 @@
         composition, and perspective to create images that convey emotions, tell
         stories, or simply capture moments in time.
       </p>
-      <NuxtLink class="flex items-center gap-2 fs_s text-[#FF9900]">
+      <NuxtLink to="/about" class="flex items-center gap-2 fs_s text-[#FF9900]">
         More About Me
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -25,10 +25,10 @@
       </NuxtLink>
     </div>
     <div
-      class="w-full flex justify-center lg:justify-end items-center mt-6 lg:mt-0"
+      class="w-full h-full flex justify-center lg:justify-end items-center mt-6 lg:mt-0"
     >
       <div
-        class="relative md:w-[390px] lg:w-[350px] h-[650px] flex justify-center"
+        class="relative md:w-[390px] lg:w-[350px] h-full flex justify-center"
       >
         <img
           src="/assets/images/imgsection.png"
@@ -41,7 +41,7 @@
           <img
             src="/assets/images/imgsection2.png"
             alt=""
-            class="animate-rotate w-[150px] lg:w-[198px]"
+            class="animate-rotate w-[220px] lg:w-[198px]"
           />
         </div>
       </div>

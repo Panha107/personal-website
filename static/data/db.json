@@ -161,5 +161,65 @@
       "title": "My project title",
       "img": "https://s3-alpha-sig.figma.com/img/f2a6/93bd/feb717b8c778b8b761c6b0056d63461a?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Uc4C8Ii3qTPQpiUrhCdhiQyFTP6fx1N9AF7QrQA-Hyet20nDm8P2jo87KLwWRsJ97wn0OOoHHZgMEGB6ejd3I45n6kW5AU1euuvHKIWS42i16fcK-6YHyxELD7y-HOrgx9voM79YU1EEBTXVQ7N5~9WRDA4qrfPU9NhtQOJm2aKTKbSXWC9DJcQeOjLemaVkQ89nJUFQvuhy6m~MGiETFY3ztwx6v39GpoWyTdHTyG3va5AEcMkXGhDdr8GO63TU5aA2naWVOKHrERCVrBROw9-l0J~WqTSZiv7w93F5vJJsPiE-NaxgsOL9I04drGbbidJUx6zz9ceQTwfVnJ0ToQ__"
     }
+  ],
+  "myWorkData": [
+    {
+      "date": "Consectetur - (2016 - 2017)",
+      "job": "Graphic design",
+      "text": "Nostrud tempor cillum sunt excepteur do ut proident deserunt enim consequat exercitatio"
+    },
+    {
+      "date": "Bibendum - (2017 - 2020)",
+      "job": "Photographer",
+      "text": "Ad do dolore cillum dolor et ex non dolor qui. Dolor amet tempor pariatur officia pariatur et"
+    },
+    {
+      "date": "Adipiscing - (2020 - 2022)",
+      "job": "Photographer’s Assistant",
+      "text": "Ad do dolore cillum dolor et ex non dolor qui. Dolor amet tempor pariatur officia pariatur et"
+    }
+  ],
+  "hobbyData": [
+    {
+      "title": "Hobby projects",
+      "text": "Duis nisi do exercitation in irure aliqua commodo nisi eu id reprehenderit dolore fugiat consectetur irure labore est ea.",
+      "images": [
+        {
+          "img": "https://s3-alpha-sig.figma.com/img/fa5e/6cc4/c421256fcc56b0da21c424130b939870?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fSLjAlM61rwXpiAOnwosYS~-xks~giGDP58D6AS33GNfOWqIgQNQkvB0kqkmkW8icqT2n~qHSGlI52XTFd0uwL0i~7NLD~bxzOFiIbiaBjmaPbeFEaFcqruPTGtrNbZu1IHMYx9MN7RgZAWoxqibvIaMUIUS156dENXMMCUOQk7qOKaXEnZiKG9fRQaJ9u8hkbve41e5q-2N98v7xhi1w5C1P3zG943xNSPCi61XRXTPpgGRPWn~EDME6marl--ZVxMCzWrAA~P2fHs7VR0StYO3cblEyZRsCIeQVjxD8fczS3Ipw6A2uVS6h04KyDPj9DEUnZd3Qq7IktbJqTy4DQ__"
+        },
+        {
+          "img": "https://s3-alpha-sig.figma.com/img/f7a4/65e0/8146ac22b6be757c3fe83e3dc05a5853?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JAY86pXZxeFbzZpVP-0VA3BLXaa-Q1fKXGxBkIAZ7xVJvYVRRN2T~btXKNx3c9~wOT3sfeBRjTCevu1kLBj89FlSjgJmsBYY9hnBeCOquFOYA0LM5pKPzMgF24Huy1u9xPVZYwnnT9EwMbeXlbFpCAhIjfQ9RYa7FTwi0NmDf9vudycnLUyCtShPjPGpLGG3UElDTMbhe~UJhVJDDvfLyDU0YbJYmPVbHguCYyFWK-v1lTMJrTE8uU10IqnpkXJb8i7urholYRyOlEuUkK4vr2ZYsssLpL7~KjgKpBmP1VVqxxp3DcduDcEImn4QlgZ0Gd3nYv0HgInt~nniNill9A__"
+        }
+      ],
+      "images2": [
+        {
+          "img": "https://s3-alpha-sig.figma.com/img/3001/d398/3310e5469c6fda10edc8647615e76cb5?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OI9POIz7mtzHWSITl2QA2UsbAwLR6RqXPhxmFpOd-YioPTAG7~-Y6~1bPmFgQihDMn9bhhzm8OAjyTngwCyLW8Ks56Qv6rhDMPlu7swHZT5EF6xaJLEgSw-parC8J1fokq7AppBg5E2kF9QTZEIBH~AHvus~NSznUX-3izdV8zCxBybgclzKfXvDUa1I~7pUZclUq1ZCHKCOoZxgJ965AYNwpqGc3iPMunT48jzk-bXTMq5pvgZ-ZjClo9ldtzP9UGX4UY0yKeSA9Mrim-eiodE8ErLmcS72WuAC8FlPorRczoA-bjtY19RNbnlstngz~CwpPOcJyX5IPTiWmFXOiA__"
+        },
+        {
+          "img": "https://s3-alpha-sig.figma.com/img/e541/27a0/2a00a23af5fac4e4faa37eba4149dcde?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AA50kbY6U1~3Lz7ui9FemDMJJ0LxfQPzx04dT7IHb65KIISqEwB7DBGVZqr5~dKsiJTcefg6VcvCH0ikWF4aMj32b~-K8H3NuSur~ld8Tzx7i9n7V-ZL80JzbnUMd2CXE7ehJnk0-4K4Dj2TJqqYesX2OorSoNC~UZ4ZkiD0V4vErhwQHwmVFlkEPr7Kj8t~HcJu3yPmYn1n8aEsEYN3hYbrhrjPXo~XuQQaQ~zhiPSwy49DmTvWJ6LzwfFOjTUlmCoGJ0VASIXUwYALi2ESvnsnq-jL7f7ZLVZHZlnOXuy0zD0UYlWX~g0FiHw4L90kjP~wAdHsTBQOYGHeHLPo4A__"
+        }
+      ]
+    }
+  ],
+  "client": [
+    {
+      "type": "Portrait",
+      "title": "Oceanic feeling",
+      "text": "Non dolore magna ut nisi duis magna minim nulla anim laborum cillum incididunt. Minim excepteur sit dolore elit labore magna aute consectetur dolor cillum non aliqua sint labore laboris tempor occaecat laboris aliqua. Irure non ullamco sit amet aliquip officia duis e",
+      "date": "12 May 2024",
+      "clientName": "Stephen Jonh"
+    }
+  ],
+  "anyData": [
+    {
+      "name": "Commodo occaecat",
+      "text": "Non dolore magna ut nisi duis magna minim nulla anim laborum cillum incididunt. Minim excepteur sit dolore elit labore magna aute consectetur dolor cillum non aliqua sint labore laboris tempor occaecat laboris aliqua. Irure non ullamco sit amet aliquip officia duis e",
+      "img": "https://s3-alpha-sig.figma.com/img/ed35/8df0/1889e2f2ec08edbb40a42fe5d3615daa?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=d-1md1eEZPamYkzVc3uUnmJahrT25RAPUFyZo37IBcoODsJzKxZ-ja5QgjlxwcvosQsZyH-auEsah4IcBHzA1i8XL9nsjiZLDCIukuwM3dvuCpRJWjacDJLvQsdkjHeWTWbtZqjoLnjLTttFfjBAElxTSHSgECoX6lMCdJS0agm~cfAxAoNyeIVSxL0y6y2TNDuu0PStb~7Wy1xDhX7L2AFzyypwQVBnBpqLGeOAxxo1DeQ97J6OjPUk2ffV3NkQGbVj6Y~Tl37Km~ENkG-HRu2nbLzUIzoQl59im16r8FUYHOwoRGx9mT2ISBT9X1CdbvMTmIfUot8Fj8kRJcDxtA__"
+    },
+    {
+      "text": "Non dolore magna ut nisi duis magna minim nulla anim laborum cillum incididunt. Minim excepteur sit dolore elit labore magna aute consectetur dolor cillum non aliqua sint labore laboris tempor occaecat laboris aliqua. Irure non ullamco sit amet aliquip officia duis e",
+      "img": "https://s3-alpha-sig.figma.com/img/e422/a398/6a420dc94099a742197d433288c209c0?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O6NED25eQVbP78JB4KDJMBR4I4fYqvc6Byw~-tlc-0bc9P2~-~KsNRnOcXNnEQcOulO~1rz~xXkIpDzxx0sZXyXWucetYo~yQ0~mvPo~MWeHucafbqLaoTMPQOpIMHVfNttwyxmfIQ10B6Mu6OTpyar6lhK~6qWfUGSq6uRXMDWOobt4EHdzzCzpxeXaRt-k1eTWjieA7~gwVYkDIBKBnt7Iq~sKOT8hx2XKLymIIrgELTxiB07DA7CqMZcsZFVeG5~fcY5GAPDVT2TEM9J~iLE6Eu4VrU28vPNoCG~YhPwswX3hXkDoLJbPrJpLrYB2o48iRixqEyxhmTxxSSep2A__",
+      "img2": "https://s3-alpha-sig.figma.com/img/0802/40de/f8395023f22ec2b7698f4f282f78f0a0?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tc1ZfcJaRpNIbsUHqTytfPRvy6gYnVmBLqvQ-P7pPE3JKRELkU6O865~7b2ImHPtYlLHGQfvp0L69zNL0lp1EhfYyL0SfdPG5LoE~McQgJ7s0KYXqcX8tvzBoNblbEtCNV5kg4NrGGleFBvazuvtv~ovOh0m9SlPl1a72QYRsXiSBq1dyhF5CR3kyfaSdV~4os~33QgU03SxDB8gj8O7jR8SvkRqXZDxkTBWYu3h85Ue81EHwYXBNZX-N-7r-1FO~bFWLkupXORzi7SoC3EFBt-NDG4O-FDFikgnftNg-JkotCwRD9Mk2vd7ARsGRJS2AfRPy0qzbQyTTDLfrGQH-g__"
+    }
   ]
 }

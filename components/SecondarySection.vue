@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full flex flex-col-reverse lg:flex-row lg:justify-between lg:my-3"
+    class="w-full lg:h-[50vh] flex flex-col-reverse lg:flex-row lg:justify-between"
   >
     <div class="w-full lg:w-[60%] flex gap-2 flex-col justify-center">
       <h2 class="fs-2 font-semibold max-sm:text-center">{{ title }}</h2>

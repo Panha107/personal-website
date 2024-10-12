@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex justify-center">
+  <div class="w-full flex flex-col justify-center items-center font-roboto">
     <div class="w-[90%]">
       <SecondarySection
         title="My Projects"
@@ -7,7 +7,7 @@
         people to meet specific goals and objectives within certain constraints like time, budget, 
         and quality. It is a temporary endeavor designed to produce a unique product, service, or result."
       />
-      <div v-if="projectCard.length" class="space-y-5">
+      <div v-if="projectCard.length" class="space-y-5 py-10">
         <ProjectCard
           v-for="(project, index) in projectCard"
           :key="index"
@@ -20,6 +20,14 @@
       <div v-else>
         <p>Loading...</p>
       </div>
+    </div>
+    <div class="w-[90%] flex justify-center pt-2 pb-7">
+      <NuxtLink
+        class="w-fit px-6 py-1 rounded text-[#FF003D] text-sm md:text-base lg:text-lg flex items-center gap-2 border border-[#FF003D]"
+      >
+        View more
+       
+      </NuxtLink>
     </div>
   </div>
 </template>

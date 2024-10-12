@@ -1,7 +1,8 @@
 <template>
   <div class="w-full bg-[#1D2128] flex justify-center font-roboto">
-    <div class="w-[90%] h-fit py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-y-12 md:gap-x-8 lg:gap-x-12">
-      <!-- Left Section -->
+    <div
+      class="w-[90%] h-fit py-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-y-12 md:gap-x-8 lg:gap-x-12"
+    >
       <div class="flex flex-col gap-6 sm:gap-8 lg:gap-12">
         <h3 class="fs-1 font-bold text-white leading-tight">
           Say hello and let's
@@ -10,7 +11,6 @@
         </h3>
 
         <div>
-          <!-- Social Media Links -->
           <div class="flex gap-4 sm:gap-6 md:gap-8">
             <NuxtLink
               v-for="(media, index) in mediaIcon"
@@ -26,8 +26,6 @@
               />
             </NuxtLink>
           </div>
-
-          <!-- Copyright Information -->
           <div class="flex gap-2 sm:gap-3 md:gap-4 mt-2">
             <ul v-for="(copy, index) in copyRight" :key="index" class="">
               <li class="fs-sm text-white">{{ copy.name }}</li>
@@ -35,10 +33,9 @@
           </div>
         </div>
       </div>
-
-      <!-- Right Section (Form) -->
-      <form class="ml-0 md:ml-[4rem] lg:ml-[6.5rem] flex flex-col gap-4 sm:gap-5">
-        <!-- Email Field -->
+      <form
+        class="ml-0 md:ml-[4rem] lg:ml-[6.5rem] flex flex-col gap-4 sm:gap-5"
+      >
         <div class="text-white relative">
           <label
             for="email"
@@ -52,8 +49,6 @@
             placeholder="Your email address"
           />
         </div>
-
-        <!-- Message Field -->
         <div class="text-white relative top-2">
           <label
             for="message"
@@ -67,49 +62,16 @@
           ></textarea>
         </div>
 
-        <!-- Submit Button -->
-        <button class="btn-bg fs_p text-white font-medium w-fit">
-          Submit
-        </button>
+        <button class="btn-bg fs_p text-white font-medium w-fit">Submit</button>
       </form>
     </div>
   </div>
 </template>
 
 <script setup>
-const mediaIcon = [
-  {
-    imgMedia: "/icons/instagram.png",
-    link: "https://www.instagram.com/",
-  },
-  {
-    imgMedia: "/icons/Dribbble.png",
-    link: "https://www.dribbble.com/",
-  },
-  {
-    imgMedia: "/icons/LinkedIn.png",
-    link: "https://www.linkedin.com/",
-  },
-  {
-    imgMedia: "/icons/Envelope.png",
-    link: "https://www.envelope.com/",
-  },
-];
+import { mediaIcon } from "~/content/mediaData";
+import { copyRight } from "~/content/mediaData";
 
-const copyRight = [
-  {
-    name: "© 2022 Brand, Inc.",
-  },
-  {
-    name: "• Privacy",
-  },
-  {
-    name: "• Terms",
-  },
-  {
-    name: "• Sitemap",
-  },
-];
 </script>
 
 <style lang="scss" scoped></style>
